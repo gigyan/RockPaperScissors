@@ -1,3 +1,41 @@
 body{
+    min-height: 100vh;
     background-color: grey;
+
 }
+
+.match_result{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.display{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    margin-bottom: 150px;
+    
+}
+
+.UserScore, .ComputerScore{
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    
+    
+}
+
+#currentUserScore , #currentCompScore {
+    font-size: 50px;
+    margin-top: auto;
+
+}
+.btn_container{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
