@@ -4,7 +4,7 @@ body{
 
 }
 
-.match_result{
+#match_result{
     text-align: center;
     margin-top: 150px;
 }
