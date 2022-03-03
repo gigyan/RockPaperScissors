@@ -5,8 +5,11 @@ body{
 }
 
 #match_result{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
     text-align: center;
     margin-top: 150px;
+    height: 30px;
 }
 
 .display{
@@ -17,7 +20,12 @@ body{
     
 }
 
+h3{
+    color: #EBA937;
+}
+
 .UserScore, .ComputerScore{
+    font-family: 'Press Start 2P', cursive;
     height: 150px;
     width: 300px;
     text-align: center;
@@ -26,7 +34,7 @@ body{
 }
 
 #currentUserScore , #currentCompScore {
-    font-size: 50px;
+    font-size: 25px;
     margin-top: auto;
 
 }
@@ -39,3 +47,41 @@ body{
     margin-right: auto;
 }
 
+
+button{
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 15px;
+    height:120px;
+    width:120px;
+    cursor:pointer;
+    border: none;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #EBA937}
+
+button:active {
+    background-color: #EBA937;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+#rock_btn{
+    background-image: url("Images/hand_rock.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#paper_btn{
+    background-image: url("Images/hand_paper.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#scissors_btn{
+    background-image: url("Images/hand_scissors.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
